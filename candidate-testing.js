@@ -20,15 +20,11 @@ let correctAnswers = [
 
 // TODO 1.1a: Define candidateName // 
 let candidateName = "";
-// TODO 1.2a: Define question, correctAnswer, and candidateAnswer //
-//let question = "Who was the first American woman in space? ";
+// TODO 1.2a: Define question, correctAnswer, and 
 let question;
 let correctAnswer;
 let candidateAnswers;
 let candidateAnswer = "";
-//let correctAnswer = "Sally Ride";
-//let questions;
-//let correctAnswers;
 
 // TODO 1.1b: Ask for candidate's name //
 function askForName() {
@@ -74,9 +70,6 @@ Correct Answer: Trajectory
 Your Answer: ${candidateAnswer[4]}
 Correct Answer: 3`)
 
-//debugging:
-//console.log(candidateAnswer);
-//console.log(correctAnswer);
 
   let grade;
   
@@ -92,8 +85,6 @@ function runProgram() {
   askQuestion();
   gradeQuiz(this.candidateAnswers);
 
-  //debug message:
-  //console.log("end of program!");
 }
 
 // Don't write any code below this line //
